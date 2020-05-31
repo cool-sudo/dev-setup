@@ -2,13 +2,28 @@
 
 use this template repository to create a on-the-go development environment.
 
-Currently supporting 'ruby' , 'java'
+Currently supporting '<b>ruby</b>' , '<b>java</b>'
 
-To create additional environment support-> create a separate repository in shell-scripts directory -> add your bash-script in it ->
-specify the order of running these bash-scripts in vagrant file.And don't forget to create a PR :)
+<p>
+<h4>How to use this template?</h4>
+
+While creating repository for your project just select or add '<b>cool-sudo/dev-setup</b>' as your template.
 
 <ul>To run it
 <li>Uncomment the lines of the environment you want in Vagrantfile</li>
-<li>Open up a terminal in root directory of this template</li>
+<li>Open up a terminal in root directory of your project</li>
 <li>Type 'vagrant up' and hit 'Enter'</li>
 </ul>
+
+To know more about vagrant follow <a href="https://www.vagrantup.com/intro/getting-started/up"> this</a> link.
+</p>
+
+<p>
+  <h4>How to contribute?</h4>
+  <ul>To create additional environment support , follow below steps
+  <li>Create a separate repository in shell-scripts directory</li>
+  <li>Add your bash-script in it </li>
+  <li>Specify the order of running these bash-scripts in vagrant file</li>
+  <li>And don't forget to create a PR :)</li>
+</p>
+

@@ -4,12 +4,12 @@ Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/bionic64"
 
   # enable the following lines to create development environment for ruby
-  config.vm.provision :shell, path: "./shell_scripts/ruby/install-rvm.sh", args: "stable", privileged: false
-  config.vm.provision :shell, path: "./shell_scripts/ruby/install-ruby.sh", args: "2.7.1", privileged: false
-  config.vm.provision :shell, path: "./shell_scripts/ruby/install-bundler.sh", privileged:false
+  # config.vm.provision :shell, path: "./shell_scripts/ruby/install-rvm.sh", args: "stable", privileged: false
+  # config.vm.provision :shell, path: "./shell_scripts/ruby/install-ruby.sh", args: "2.7.1", privileged: false
+  # config.vm.provision :shell, path: "./shell_scripts/ruby/install-bundler.sh", privileged:false
 
   # enable the following lines to create development environment for java
-  # config.vm.provision :shell, path: "./shell_scripts/install-java.sh"
+  # config.vm.provision :shell, path: "./shell_scripts/java/install-java.sh"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
